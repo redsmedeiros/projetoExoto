@@ -1,0 +1,59 @@
+.menu-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  background: silver;
+}
+
+.card{
+  background-color: white;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.principal{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.novidade{
+  width: 40%;
+
+}
+
+img{
+  width: 100%;
+}
+
+.btn:hover{
+  opacity: 0.6;
+}
+
+.card h3{
+  padding: 0.5rem;
+  border-bottom: 1px solid silver;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+li{
+  padding: 0.25rem;
+  font-weight: bold;
+}
+
+li:hover{
+  color: silver;
+  text-decoration: underline;
+}

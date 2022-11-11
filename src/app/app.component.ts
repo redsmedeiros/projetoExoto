@@ -6,5 +6,22 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+
+  logo: string = "/assets/logo3.jpg"
+
+  flagMenu: boolean = false
+
   title = 'projetoExoto';
+
+  mostrarMenu(): void{
+
+    this.flagMenu = !this.flagMenu
+
+  }
+
+
+
+
 }
+
+
